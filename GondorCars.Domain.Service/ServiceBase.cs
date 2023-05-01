@@ -1,8 +1,6 @@
 ﻿using GondorCars.Domain.Core.Interfaces.Repositories;
 using GondorCars.Domain.Core.Interfaces.Services;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace GondorCars.Domain.Service
 {

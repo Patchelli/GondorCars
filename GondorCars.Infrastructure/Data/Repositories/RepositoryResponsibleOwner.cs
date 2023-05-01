@@ -1,5 +1,4 @@
 ﻿using GondorCars.Domain.Core.Interfaces.Repositories;
-using GondorCars.Domain.Entities.Car;
 using GondorCars.Domain.Entities.Owner;
 
 namespace GondorCars.Infrastructure.Data.Repositories

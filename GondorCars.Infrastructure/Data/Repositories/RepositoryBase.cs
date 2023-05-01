@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace GondorCars.Infrastructure.Data.Repositories
 {
@@ -25,7 +24,6 @@ namespace GondorCars.Infrastructure.Data.Repositories
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -49,7 +47,6 @@ namespace GondorCars.Infrastructure.Data.Repositories
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -63,7 +60,6 @@ namespace GondorCars.Infrastructure.Data.Repositories
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
