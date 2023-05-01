@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GondorCars.Domain.BaseEntities
 {
-    public class Address
+    public class Address : Base
     {
         public string Street { get; set; }
         public string Number { get; set; }

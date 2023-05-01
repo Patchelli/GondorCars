@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GondorCars.Domain.Service\GondorCars.Domain.Service.csproj" />
+  </ItemGroup>
+
 </Project>

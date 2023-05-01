@@ -1,4 +1,5 @@
 ﻿using GondorCars.Domain.BaseEntities;
+using GondorCars.Domain.Entities.Owner;
 using System;
 using System.Collections.Generic;
 
@@ -27,10 +28,10 @@ namespace GondorCars.Domain.Entities.Car
         public List<Accessory> Acessorioes { get; set; }
 
         // Ex Dono (pode ser PessoaFisica ou PessoaJuridica)
-        public ResponsibleEntity FormerOwner { get; set; }
+        public ResponsibleOwner FormerOwner { get; set; }
 
         // Responsável pelo carro (pode ser PessoaFisica ou PessoaJuridica)
-        public ResponsibleEntity Owner { get; set; }
+        public ResponsibleOwner Owner { get; set; }
 
     }
 }
