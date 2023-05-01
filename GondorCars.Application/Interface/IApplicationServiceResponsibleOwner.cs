@@ -1,7 +1,5 @@
 ﻿using GondorCars.Application.DTO;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace GondorCars.Application.Interface
 {
@@ -11,7 +9,7 @@ namespace GondorCars.Application.Interface
 
         void Update(ResponsibleOwnerDTO responsibleOwnerDto);
 
-        void Remove(ResponsibleOwnerDTO responsibleOwnerDto);
+        void Remove(ResponsibleOwnerDTO rINesponsibleOwnerDto);
 
         IEnumerable<ResponsibleOwnerDTO> GetAll();
 
