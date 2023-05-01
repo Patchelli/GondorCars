@@ -13,7 +13,7 @@ namespace GondorCars.Infrastructure.Data
         }
 
         public DataContext(DbContextOptions<DataContext> options)
-             :base(options)
+             : base(options)
         {
         }
 
@@ -27,8 +27,6 @@ namespace GondorCars.Infrastructure.Data
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-PCN8TME;Database=GONDOR_CARS;Trusted_Connection=True;");
         }
-
-
 
         public override int SaveChanges()
         {

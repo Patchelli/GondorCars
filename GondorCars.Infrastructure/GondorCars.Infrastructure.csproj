@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GondorCars.Domain.Core\GondorCars.Domain.Core.csproj" />
     <ProjectReference Include="..\GondorCars.Domain\GondorCars.Domain.csproj" />
   </ItemGroup>
 

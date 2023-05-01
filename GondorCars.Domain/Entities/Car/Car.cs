@@ -9,6 +9,7 @@ namespace GondorCars.Domain.Entities.Car
     {
         // Propriedades do carro
         public string Brand { get; set; }
+
         public string Model { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
@@ -32,6 +33,5 @@ namespace GondorCars.Domain.Entities.Car
 
         // Responsável pelo carro (pode ser PessoaFisica ou PessoaJuridica)
         public ResponsibleOwner Owner { get; set; }
-
     }
 }

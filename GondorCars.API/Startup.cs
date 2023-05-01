@@ -1,5 +1,3 @@
-using GondorCars.Domain.Entities.Car;
-using GondorCars.Domain.Entities.Owner;
 using GondorCars.Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,9 +24,7 @@ namespace GondorCars.API
 
             services.AddScoped<DataContext, DataContext>();
 
-
             services.AddControllers();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

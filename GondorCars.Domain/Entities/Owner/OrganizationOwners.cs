@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GondorCars.Domain.Entities.Owner
+﻿namespace GondorCars.Domain.Entities.Owner
 {
     public class OrganizationOwners : ResponsibleOwner
     {

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using GondorCars.Shared.Enum;
+﻿using GondorCars.Shared.Enum;
+using System;
 
 namespace GondorCars.Domain.Entities.Owner
 {
@@ -10,7 +8,5 @@ namespace GondorCars.Domain.Entities.Owner
         public string CPF { get; set; }
         public GenderEnum Sexy { get; set; }
         public DateTime DateOfBirth { get; set; }
-
-
     }
 }
